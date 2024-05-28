@@ -43,7 +43,10 @@ public class ReadGloveAsKeyboard : MonoBehaviour
         enderAngles[1,0] = new Quaternion((float)-0.200879067, (float)0.592819631, (float)0.740095377, (float)0.245909482);
         enderAngles[1,1] = new Quaternion((float)-0.0421681106, (float)0.0681166425, (float)-0.696204185, (float)0.713359594);
         enderAngles[1,2] = new Quaternion((float)-0.202249497, (float)0.110711589, (float)-0.802879512, (float)0.549747705);
-        for(int i = 2; i < 5; ++i)
+        enderAngles[4, 0] = new Quaternion((float)-0.0195530485, (float)0.00454074703, (float)0.972945869, (float)0.230159581);
+        enderAngles[4,1] = new Quaternion((float)0, (float)0, (float)-0.636751354, (float)0.771069229);
+        enderAngles[4,2] = new Quaternion((float)0, (float)0, (float)-0.60390377, (float)0.797057211);
+        for (int i = 2; i < 4; ++i)
         {
             for(int j = 0; j < 3; ++j)
             {
